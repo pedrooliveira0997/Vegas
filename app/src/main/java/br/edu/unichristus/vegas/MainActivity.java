@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
         Button rollButton = findViewById(R.id.rollButton);
 
-        Button somaButton = findViewById(R.id.somaButton);
+        final Button somaButton = findViewById(R.id.somaButton);
 
         final ImageView leftDice = findViewById(R.id.image_leftDice);
 
@@ -51,16 +51,19 @@ public class MainActivity extends AppCompatActivity {
                 rightDice.setImageResource(diceeArray[number]);
 
 
-                String str = Integer.toString(soma);
+                 String strsoma = Integer.toString(soma);
 
 
             }
         });
 
+
+
         somaButton.setOnClickListener(new View.OnClickListener() {
            @Override
            public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, ResultadoActivity.class);
+                intent.putExtra("RESULATADO SOMA", )
                 startActivity(intent);
            }
         });
