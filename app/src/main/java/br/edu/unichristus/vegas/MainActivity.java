@@ -21,6 +21,8 @@ public class MainActivity extends AppCompatActivity {
 
         Button rollButton = findViewById(R.id.rollButton);
 
+        Button somaButton = findViewById(R.id.somaButton);
+
         final ImageView leftDice = findViewById(R.id.image_leftDice);
 
         final ImageView rightDice = findViewById(R.id.image_rightDice);
@@ -54,5 +56,15 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
+        somaButton.setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, ResultadoActivity.class);
+                startActivity(intent);
+           }
+        });
+
+
     }
 }

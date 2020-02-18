@@ -6,4 +6,5 @@
     <string name="dice2">dice2</string>
     <string name="Roll">Roll</string>
     <string name="textResult">TextView</string>
+    <string name="somaButton">Soma</string>
 </resources>
