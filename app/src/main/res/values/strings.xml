@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Vegas</string>
+    <string name="background">background</string>
+    <string name="image_logo">image_logo</string>
+    <string name="dice1">dice1</string>
+    <string name="dice2">dice2</string>
+    <string name="Roll">Roll</string>
+    <string name="textResult">TextView</string>
+</resources>
