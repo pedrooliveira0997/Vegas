@@ -7,4 +7,5 @@
     <string name="Roll">Roll</string>
     <string name="textResult">TextView</string>
     <string name="somaButton">Soma</string>
+    <string name="textviewResult">TextView</string>
 </resources>
