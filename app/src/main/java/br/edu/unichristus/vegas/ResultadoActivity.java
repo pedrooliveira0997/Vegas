@@ -15,7 +15,7 @@ public class ResultadoActivity extends AppCompatActivity {
 
         Intent intent = getIntent();
         String result = (String) intent.getSerializableExtra("RESULTADO");
-        TextView textResult = (TextView) findViewById(R.id.textViewResult);
+        TextView textResult = (TextView) findViewById(R.id.textviewResult);
         textResult.setText("O Resultado da soma dos dados é:"+result);
 
     }

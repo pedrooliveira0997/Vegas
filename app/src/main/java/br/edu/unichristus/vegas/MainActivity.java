@@ -46,14 +46,19 @@ public class MainActivity extends AppCompatActivity {
                 Log.d("Dice", "Entrou no clique no botão!");
 
                 int soma = 0;
+
                 Random numberRandom = new Random();
-                int number = numberRandom.nextInt(6); //aleatório [0,5];
+
+                int number = numberRandom.nextInt(6); //aleatório [0,5]
+
+
                 leftDice.setImageResource(diceeArray[number]);
-                soma = soma + number;
+                soma = (soma + number) + 1;
 
                 number = numberRandom.nextInt(6);
+
                 rightDice.setImageResource(diceeArray[number]);
-                soma = soma + number;
+                soma = (soma + number) + 1;
 
                 strsoma = Integer.toString(soma);
 
